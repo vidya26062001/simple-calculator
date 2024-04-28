@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0ecf4;
+
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.calculator {
+    background-color: lightblue;
+    border: 2px solid #148956;
+    padding: 10px 40px;
+    border-radius: 8px;
+
+}
+
+.input-group {
+    margin-bottom: 15px;
+
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.input-group input {
+    width: 96%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #0c841c;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
